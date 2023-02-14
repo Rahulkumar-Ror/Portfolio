@@ -1,3 +1,6 @@
+document.querySelector('.menu-icon').addEventListener('click', function() {
+  document.querySelector('nav ul').classList.toggle('show');
+});
 // Magic mouse sparkle trail effect
 console.log("hii")
 const trail = document.createElement("div");
